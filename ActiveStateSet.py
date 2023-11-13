@@ -67,29 +67,3 @@ def update_processes(processes):
     with open('processes.ini', 'w', encoding='utf-8') as config_file:
         config.write(config_file)
     sleep(0.1)
-
-
-
-
-# processes = {373995981: {},
-#              6269953373: {},
-#              185132977: {},
-#              123: {228: {'process_type': 'Save Stories',
-#                          'process_target': 'VovaSidor',
-#                          'state': 'waiting',
-#                          'queue': 100,
-#                          'waiting_time': '50 hours'},
-#                    666: {'process_type': 'Monitor Stories',
-#                          'process_target': 'kiberbuller',
-#                          'state': 'waiting',
-#                          'queue': 15,
-#                          'waiting_time': '6 hours'}
-#                    }
-#              }
-# update_processes(processes)
-
-# {USER_ID: {PROCESS_ID: {'process_type': 'Save Stories',
-#                         'process_target': 'VovaSidor',
-#                         'state': 'waiting',
-#                         'queue': 100,
-#                         'waiting_time': '50 hours'}}}
