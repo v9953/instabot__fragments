@@ -57,11 +57,6 @@ def delete_messages(bot, client_id):
             delete_messages(bot, client_id)
         messages[client_id] = {}
 
-    # locker = threading.RLock()
-    # locker.acquire()
-    # update_messages(messages)
-    # locker.release()
-
 
 def check_message_updates():
     global messages
